@@ -10,11 +10,9 @@ def calculatePay():
             TotalPay=(hrs*rt)
         elif hr > 40:
             TotalPay=(40*rt) + (hr-40)*1.5*rt
-
         print("Enter Hours:",hrs)
         print("Enter Rate:",rate)
         print ("Pay:",TotalPay)
-    
     except: 
         print('Please enter a numeric value.')
 
