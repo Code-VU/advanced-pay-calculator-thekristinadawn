@@ -1,4 +1,4 @@
-def calculatePay():
+def payCalculator():
     
     # This first line is provided for you
     hrs = input("Enter Hours:")
@@ -10,9 +10,9 @@ def calculatePay():
     elif h > 40:
         TotalPay=(40*pay) + (h-40)*1.5*pay
 
-    print("Enter Hours:" +" "+ hrs)
-    print("Enter Rate:" +" "+ rate)
-    print ("Pay:" , TotalPay)
+    print("Enter Hours:",hrs)
+    print("Enter Rate:",rate)
+    print ("Pay:",TotalPay)
 
     # end assignment
 
