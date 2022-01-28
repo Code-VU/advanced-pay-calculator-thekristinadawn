@@ -1,4 +1,4 @@
-def payCalculator():
+def calculatePay():
     
     # This first line is provided for you
     hrs = input("Enter Hours:")
@@ -20,4 +20,4 @@ def payCalculator():
 ## uncomment calculatePay() and run > python payCalculator.py
 ## ***IMPORTANT*** please recomment before you submit/sync your assignment.
 ## OR YOUR TEST WILL NOT RUN
-# calculatePay()
+calculatePay()
