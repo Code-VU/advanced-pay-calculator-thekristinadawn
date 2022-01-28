@@ -1,14 +1,12 @@
 def calculatePay():
     
     # This first line is provided for you
-    hrs = input("Enter Hours:")
-    h = float(hrs)
-    rate = input("Enter Rate:")
-    pay = float(rate)
+    hrs = float(input("Enter Hours:")
+    rate = float(input("Enter Rate:")
     if h <=40:
-        TotalPay=(h*pay)
+        TotalPay=(hrs*rate)
     elif h > 40:
-        TotalPay=(40*pay) + (h-40)*1.5*pay
+        TotalPay=(40*rate) + (hrs-40)*1.5*rate
 
     print("Enter Hours:",hrs)
     print("Enter Rate:",rate)
