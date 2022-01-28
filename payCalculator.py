@@ -1,16 +1,22 @@
 def calculatePay():
     
     # This first line is provided for you
-    hrs = float(input("Enter Hours:"))
-    rate = float(input("Enter Rate:"))
-    if hrs <=40:
-        TotalPay=(hrs*rate)
-    elif hrs > 40:
-        TotalPay=(40*rate) + (hrs-40)*1.5*rate
+try:
+    hrs = input("Enter Hours:")
+    rate = input("Enter Rate:")
+    hours = float(hrs)
+    pay = float(rate)
+    if hours <=40:
+        TotalPay=(hrs*pay)
+    elif hours > 40:
+        TotalPay=(40*pay) + (hours-40)*1.5*pay
 
     print("Enter Hours:",hrs)
     print("Enter Rate:",rate)
     print ("Pay:",TotalPay)
+    
+except ValueError:
+        print('Please enter a numeric value.')
 
     # end assignment
 
