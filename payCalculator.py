@@ -15,7 +15,7 @@ try:
     print("Enter Rate:",rate)
     print ("Pay:",TotalPay)
     
-except ValueError:
+except: 
         print('Please enter a numeric value.')
 
     # end assignment
